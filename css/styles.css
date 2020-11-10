@@ -102,6 +102,17 @@ img {
 .nav .link.current {
   color: var(--link-text-cl);
 }
+
+.current::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 4px;
+  background-color: var(--link-text-cl);
+  border-radius: 2px;
+  /* margin-top: 28px; */
+}
+
 .logo {
   font-family: Raleway;
   font-weight: 700;
@@ -145,6 +156,7 @@ img {
   height: 12px;
   fill: var(--main-text-cl);
   margin-right: 10px;
+  vertical-align: middle;
 }
 
 .contacts-phone-svg {
@@ -152,6 +164,7 @@ img {
   height: 12px;
   fill: var(--main-text-cl);
   margin-right: 10px;
+  vertical-align: middle;
 }
 
 .cotacts-nav-link:hover .contacts-emil-svg,
