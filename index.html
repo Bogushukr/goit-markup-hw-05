@@ -39,7 +39,7 @@
     <section class="hero cellar">
         <div class="container-hero">
             <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-            <button class="btn" type="button"> Заказать услугу</button>
+            <button data-modal-open class="btn" type="button"> Заказать услугу</button>
         </div>
     </section>
 
@@ -323,5 +323,16 @@
             </div>
         </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+            <img src="./images/prikol.jpg" alt="joke">
+            <button class="btn-backdrop" data-modal-close>
+                <svg class="backdrop-close-svg">
+                    <use href="./images/sprite.svg#icon-close"></use>
+                </svg>
+            </button>
+        </div>
+    </div>
+    <script src="./js/modal.js"></script>
 </body>   
 </html>
