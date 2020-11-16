@@ -173,11 +173,13 @@ img {
 .cotacts-nav-link:hover .contacts-emil-svg,
 .cotacts-nav-link:focus .contacts-emil-svg {
   fill: var(--link-text-cl);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .cotacts-nav-link:hover .contacts-phone-svg,
 .cotacts-nav-link:focus .contacts-phone-svg {
   fill: var(--link-text-cl);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .cotacts-nav {
@@ -198,6 +200,7 @@ img {
 .link:hover,
 .link:focus {
   color: var(--link-text-cl);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .menu-nav {
@@ -263,6 +266,7 @@ img {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   color: var(--wight-text);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .btn-port:active {
@@ -396,11 +400,13 @@ img {
 .btn-backdrop:hover .backdrop-close-svg,
 .btn-backdrop:focus .backdrop-close-svg {
   fill: rgba(27, 27, 27, 0.363);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .btn-backdrop:hover,
 .btn-backdrop:focus {
   border: 2px solid rgba(0, 0, 0, 0.1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-content {
@@ -491,11 +497,13 @@ img {
   margin-bottom: 0;
 }
 
-.element:hover {
+.element:hover,
+.element:focus {
   background: #ffffff;
   border: 1px solid #eeeeee;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .element-thumb {
@@ -503,11 +511,12 @@ img {
   overflow: hidden;
 }
 
-.element:hover .element-overla {
+.element:hover .element-overla,
+.element:focus .element-overla {
   transform: translateY(0);
 }
 
-.element:hover .element-thumb::before {
+.element:hover .element-thumb::before .element:focus .element-thumb::before {
   opacity: 1;
   transform: translateY(-100%);
 }
@@ -787,11 +796,13 @@ img {
 .social-icon-link:hover .social-icon-svg,
 .social-icon-link:focus .social-icon-svg {
   fill: var(--wight-text);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-icon-link:hover,
 .social-icon-link:focus {
   background-color: var(--link-text-cl);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-icon-svg {
@@ -851,12 +862,14 @@ img {
 .partners-icon-link:hover .partners-icon-svg,
 .partners-icon-link:focus .partners-icon-svg {
   fill: var(--link-text-cl);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .partners-icon-link:hover,
 .partners-icon-link:focus {
   background-color: var(--wight-text);
   border: 1px solid var(--link-text-cl);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .cellar {
@@ -965,6 +978,7 @@ img {
 .social-icon-link:hover,
 .social-icon-link:focus {
   background-color: var(--link-text-cl);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-cellar-icon .social-icon {
